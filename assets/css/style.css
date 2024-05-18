@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+}
+
+.coluna01,
+.coluna02,
+.coluna03,
+.coluna04{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    width: 3.8rem;
+    height: 3.8rem;
+}
